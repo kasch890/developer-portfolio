@@ -91,7 +91,7 @@ nav ul li{
   background-color: transparent;
 }
 .hero-img{
-  width: 20rem;
+  width: 15rem;
   height: auto;
   border-radius: 50%;
 }
@@ -312,16 +312,34 @@ footer {
     transform: translateX(0);
   }
   .hero {
-    margin-top:-4rem;
+    margin-top: 1em;
     flex-direction: column;
     gap: 0;
   }
   .hero img{
-    height: 37.5rem;
-    width: 30rem;
+    height: 15rem;
+    width:auto;
   }
   .bio{
-    margin-top: -7rem;
+    margin-top: 1rem;
     width: 20.5rem;
   }
+
+  .more-about{
+    margin-top: 2rem;
+    padding: 1rem 3.5rem;
+  }
+  .more-about h2{
+    text-align: center;
+  }
+  .more-about p{
+    text-align: justify;
+  }
+
+  .icon{
+    width: 5.8rem;
+    height: auto;
+  }
+
+  
 }
