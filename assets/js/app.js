@@ -1,3 +1,4 @@
+//scroll-up button functionality
 const scrollUp = document.querySelector("#scroll-up");
 
 scrollUp.addEventListener("click", () => {
@@ -6,4 +7,13 @@ scrollUp.addEventListener("click", () => {
     left: 0,
     behavior: "smooth",
   });
+});
+
+//nav bar hamburger menu functionality
+const burger = document.querySelector("#burger-menu");
+const ul = document.querySelector("nav ul");
+const van = document.querySelector("nav");
+
+burger.addEventListener("click", () => {
+    ul.classList.toggle("show");
 });
