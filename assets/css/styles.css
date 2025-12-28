@@ -11,8 +11,8 @@
   --bg-color: #000000;
   --primary-color: #ffffff;
   --secondary-color: #39ea2d;
-  --primary-shadow: #888888;
-  --secondary-shadow: #f0f0f0;
+  --primary-shadow: #484848;
+  --secondary-shadow: #858585;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
   --line-height: 1.7rem;
@@ -141,7 +141,6 @@ padding: 0.4rem;
 .skills-wrapper img {
   padding: 1.25rem;
 }
-
 .icon {
   width: 11.875rem;
   height: 11.25rem;
@@ -153,6 +152,8 @@ padding: 0.4rem;
   padding: 20px;
   margin: 10px;
 }
+
+
 .projects{
   background-color: var(--bg-color);
   padding: 32px 0;
@@ -195,4 +196,74 @@ padding: 0.4rem;
 }
 .project-card *{
   color: var(--bg-color);
+}
+
+
+.contact{
+  margin-top: 2rem;
+}
+.contact h2{
+  text-align: center;
+  margin-bottom: var(--bottom-margin-2);
+}
+.contact-form-container{
+  max-width: 40.75rem;
+  margin: 0 auto;
+  padding: 0.938rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+}
+.contact-form-container label {
+  line-height: 2.7em;
+  font-weight: var(--bold-font);
+  color: var(--primary-color);
+}
+.contact-form-container textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+  color: var(--main-text-color);
+}
+.contact-form-container .input-field {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px outset var(--secondary-color);
+  font-size: 0.875rem;
+  outline: none;
+  background-color: var(--bg-color);
+}
+.input-field::placeholder {
+  padding: 0.5rem;
+  color: var(--primary-shadow);
+}
+.submit-btn {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.875rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  background-color: var(--bg-color);
+  color: var(--main-text-color);
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.submit-btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--main-text-color);
+}
+
+.socials{
+  display:flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  bottom: 50%;
+}
+.socicon{
+  width: 2rem;
+  height: 2rem;
 }

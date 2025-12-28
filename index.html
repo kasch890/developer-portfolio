@@ -44,29 +44,29 @@
       </button>
     </nav>
     <!-- Hero Section -->
-     <section class="hero" id="about">
-      <img
-      src="assets/images/headshot_color.png"
-      alt="kai-fernandes-hero-image"
-      loading="lazy"
-      class="hero-img" 
-      />
-        <div class="bio animate__animated animate__fadeIn">
-          <h2 class="bio-title">About Me</h2>
-          <p class="bio-text">
-            Master’s student in Software Development with a strong foundation in software engineering, data analysis, and
-            object-oriented design. Experienced in building Python and Java applications, developing data processing pipelines, and
-            collaborating in Agile teams to deliver user-focused solutions. Brings a physics background that supports analytical
-            problem-solving, debugging, and working with complex systems.
-          </p>
-        </div>
-     </section>
+    <section class="hero" id="about">
+    <img
+    src="assets/images/headshot_color.png"
+    alt="kai-fernandes-hero-image"
+    loading="lazy"
+    class="hero-img" 
+    />
+      <div class="bio animate__animated animate__fadeIn">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Master’s student in Software Development with a strong foundation in software engineering, data analysis, and
+          object-oriented design. Experienced in building Python and Java applications, developing data processing pipelines, and
+          collaborating in Agile teams to deliver user-focused solutions. Brings a physics background that supports analytical
+          problem-solving, debugging, and working with complex systems.
+        </p>
+      </div>
+    </section>
 
     <!-- More about -->
-     <section class="more-about">
-      <h2>More About Me</h2>
-      <p>I finished my undergraduate studies at Amherst College in Massachusetts, where I studied physics and mathematics.</p>
-      <p>I now study online at Boston University while I work at a local gym and complete my internship with BST</p>
+    <section class="more-about">
+    <h2>More About Me</h2>
+    <p>I finished my undergraduate studies at Amherst College in Massachusetts, where I studied physics and mathematics.</p>
+    <p>I now study online at Boston University while I work at a local gym and complete my internship with BST</p>
     </section>
 
     <!-- Skills section -->
@@ -117,6 +117,7 @@
         </div>
       </div>
     </section>
+
     <!-- Projects section -->
     <section class="projects" id="projects">
       <h2 class="projects-title">Some of my recent projects</h2>
@@ -133,7 +134,7 @@
             A python program that allows users to track their video game collection and progress.
           </p>
           <p>Check out the <a
-            href="https://github.com/kasch890/Game-Log" target="_blank" class="project-link">Github page</a>!</p>
+            href="https://github.com/kasch890/Game-Log" target="_blank" class="project-link">Github repository</a>!</p>
         </div>       
         <div class="project-container project-card">
           <img
@@ -168,13 +169,95 @@
       </div>
     </section>
 
-
     <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input 
+                type="text" 
+                id="name" 
+                name="sender-name" 
+                placeholder="Enter Your Name"
+                class="input-field"
+                required />
+            </div>            
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input 
+                type="text" 
+                id="email" 
+                name="sender-email" 
+                placeholder="Enter Your Email"
+                class="input-field"
+                required />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+
+    </section>
 
     <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+    <a href="#" target="_blank"
+      ><img
+        src="assets/icons/icons8-twitter-circled.gif"
+        alt="Twitter"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img
+        src="assets/icons/icons8-instagram.gif"
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img
+        src="assets/icons/icons8-linkedin-circled.gif"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+    /></a>
+
 
     <!-- Footer section -->
 
+    <footer>
+      <p class="copy">&copy; Copyright 2025</p>
+      <p class="copy">
+        Built by
+        <a href="www.linkedin.com/in/kai-fernandes" target="_blank">
+          Kai Fernandes</a
+        >
+      </p>
+</footer>
     <!-- Website scripts -->
     <!-- <script src="assets/js/app.js"></script> -->
 
