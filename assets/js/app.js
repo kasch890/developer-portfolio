@@ -17,3 +17,12 @@ const van = document.querySelector("nav");
 burger.addEventListener("click", () => {
     ul.classList.toggle("show");
 });
+
+//select nav links
+const navLink = document.querySelectorAll(".nav-link");
+
+navLink.forEach((link) =>
+  link.addEventListener("click", () => {
+    ul.classList.remove("show");
+  })
+);
